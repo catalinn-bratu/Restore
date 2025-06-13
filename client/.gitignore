@@ -1,24 +1,59 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.swp
+
+# Dependency directories
+node_modules/
+bin/
+obj/
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Cache
+.cache/
+
+# Misc
+*.bak
+*.tmp
+*~
+~$*
+# React
+.eslintcache
+.next/
+
+# Node.js
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+# .NET
+*.user
+*.userosscache
+*.sln.docstates
+*.pyc
+__pycache__/
