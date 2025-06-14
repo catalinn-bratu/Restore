@@ -26,7 +26,8 @@ function App() {
       pictureUrl: "https://example.com/product2.jpg",
       type: "Type 2",
       brand: "Brand 2",
-      quantityInStock: 20
+      quantityInStock: 20,
+      
     },
     // ...
   ];
